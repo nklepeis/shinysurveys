@@ -114,10 +114,11 @@ getRequired_internal <- function(questions) {
     stringsAsFactors = FALSE
   )
 
-  names(out) <- "required_id"
-
-  out <- out$required_id
-
+  if (NROW(questions)) {
+   names(out) <- "required_id"
+   out <- out$required_id
+  }
+  
   return(out)
 
 }
