@@ -54,11 +54,14 @@ li.l {
   margin-right: 35px;
 }
 
+.radio-matrix-buttons:hover {
+  color: gray;
+  background-color: black;
+}
+
 input[type=text]:focus {
   border-bottom: 1.5px solid $little_dark;
   -webkit-box-shadow: none;
-  color: gray; 
-  background-color: black;
 }
 
 input[type=text] {
