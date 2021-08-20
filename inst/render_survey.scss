@@ -11,6 +11,7 @@ $dark: darken($color, 15%);
 body {
 	font-family: 'Raleway', sans-serif;
 	background-color: $light;
+	color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,7 +42,8 @@ h3 {
 }
 
 p {
-	color: #333;
+	/*color: #333;*/
+	color: white;
 	margin: 35px;
 	margin-bottom: 10px;
 	font-family: 'Raleway', sans-serif;
