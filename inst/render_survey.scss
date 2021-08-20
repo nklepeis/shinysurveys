@@ -14,7 +14,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #333;
+	/*color: #333;*/
+	color: white;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -105,8 +106,9 @@ label {
       }
 
       .title-description {
-        background-color: white;
-        border-radius: 20px;
+        /*background-color: white;*/
+        background-color: black;
+	border-radius: 20px;
         border-top: 20px solid $middle_dark;
         padding: {
           left: 5%;
@@ -134,8 +136,9 @@ label {
 
       .questions {
         display: grid;
-        background-color: white;
-        border: 0.5px solid #CCCCCC;
+        /*background-color: white;*/
+        background-color: black;
+	border: 0.5px solid #CCCCCC;
         border-radius: 10px;
         margin-bottom: 12px;
         padding: 10px;
